@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Student Homework System
 
 I developed the frontend of this project with React. I created a server using NodeJs. I used MySql as database.
@@ -21,6 +20,3 @@ To start the server, you have to enter the "npm start" command in the terminal.
 
 You should open a new terminal and enter the client file with the "cd client" command. Then you should run the "npm install" command. Then you have to run "npm start" command in terminal to start client side.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-=======
-# student-homework-system
->>>>>>> a3aa2e7192e7750219e00c04b1016799835fa17c
