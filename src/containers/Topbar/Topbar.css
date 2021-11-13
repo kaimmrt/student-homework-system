@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #00adb5;
+  --grey-color: #393e46;
+  --black-color: #242424;
+  --cream-color: #eeeeee;
+}
+
+.topbar-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+  margin-top: 10vh;
+  justify-content: center;
+}
+
+.topbar {
+  width: 30%;
+  height: 100%;
+  border-radius: 40px;
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar h1,
+p {
+  color: var(--cream-color);
+}
+
+.topbar-icon {
+  width: 30px;
+  height: 30px;
+  color: var(--cream-color);
+  cursor: pointer;
+}
+
+.topbar-text-container {
+  margin: 0px 60px;
+}

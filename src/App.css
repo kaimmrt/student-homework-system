@@ -1,0 +1,233 @@
+:root {
+  --primary-color: #00adb5;
+  --grey-color: #393e46;
+  --black-color: #242424;
+  --cream-color: #eeeeee;
+}
+
+.container {
+  background-color: white;
+}
+
+.auth-container {
+  display: flex;
+}
+
+.auth-left-container {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+.auth-left-container-header {
+  color: var(--cream-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.auth-header {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.auth-form {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-radio {
+  color: var(--primary-color);
+}
+.auth-input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.auth-btn-typ-1 {
+  width: 100px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  border: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.auth-btn-typ-1:hover {
+  background-color: var(--primary-color);
+}
+
+.auth-btn-typ-2 {
+  color: var(--primary-color);
+  margin-left: 10px;
+}
+
+.auth-btn-typ-2:hover {
+  color: var(--primary-color);
+}
+
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding-top: 10%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.table {
+  background-color: var(--cream-color);
+  display: flex;
+  border-radius: 20px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.table h1 {
+  font-size: 20px;
+}
+.table p {
+  color: var(--primary-color);
+}
+
+.table-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: wheat;
+  margin-left: 20px;
+  width: 20%;
+  height: 200px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  color: var(--primary-color);
+  margin-top: 20px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.list-info-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
+
+.list-button {
+  width: 20%;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--cream-color);
+  font-size: 20px;
+}
+
+.list-button:hover {
+  background-color: var(--primary-color);
+  color: var(--cream-color);
+}
+
+.list-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+}
+
+.info-list-container {
+  width: 60%;
+  margin-top: -50px;
+}
+
+.info-table {
+  width: 100%;
+  background-color: var(--cream-color);
+  display: flex;
+  border-radius: 20px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info-non-list {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--black-color);
+}
+.info-container {
+  width: 30%;
+  margin-right: 20%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: var(--primary-color);
+}
+.info-header {
+  font-size: 30px;
+  color: var(--cream-color);
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.info-class-name {
+  font-size: 15px;
+  color: var(--cream-color);
+}
+
+.send-homework-btn {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: var(--primary-color);
+  color: var(--cream-color);
+  border: none;
+}
+
+.send-homework-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--cream-color);
+}
+
+@media screen and (max-width: 908px) {
+  .auth-left-container {
+    display: none;
+  }
+
+  .auth-form {
+    width: 100%;
+  }
+}
